@@ -39,12 +39,12 @@ const Books = () => {
                         <p>{book.desc}</p>
                         <span>AED{book.price}</span>
                         <button className='delete' style={{textDecoration: 'none'}} onClick={()=> handleDelete(book.id)}>Delete</button>
-                        <button className='update'><Link style={{textDecoration: 'none'}} to={`/update/${book.id}`}>Update</Link></button>
+                        <button className='update'><Link style={{textDecoration: 'none', color: 'aliceblue'}} to={`/update/${book.id}`}>Update</Link></button>
                     </div>
                 ))}
             </div>
             <button className='addNewButton'>
-                <Link style={{textDecoration: 'none'}} to='/add'>Add New Book</Link>
+                <Link style={{textDecoration: 'none', color: 'aliceblue'}} to='/add'>Add New Book</Link>
             </button>
         </div>
     )
