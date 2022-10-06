@@ -38,13 +38,13 @@ const Books = () => {
                         <h2>{book.title}</h2>
                         <p>{book.desc}</p>
                         <span>AED{book.price}</span>
-                        <button className='delete' onClick={()=> handleDelete(book.id)}>Delete</button>
-                        <button className='update'><Link to={`/update/${book.id}`}>Update</Link></button>
+                        <button className='delete' style={{textDecoration: 'none'}} onClick={()=> handleDelete(book.id)}>Delete</button>
+                        <button className='update'><Link style={{textDecoration: 'none'}} to={`/update/${book.id}`}>Update</Link></button>
                     </div>
                 ))}
             </div>
-            <button>
-                <Link to='/add'>Add New Book</Link>
+            <button className='addNewButton'>
+                <Link style={{textDecoration: 'none'}} to='/add'>Add New Book</Link>
             </button>
         </div>
     )
