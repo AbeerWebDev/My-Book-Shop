@@ -6,3 +6,67 @@
     justify-content: center;
     text-align: center;
 }
+
+.books {
+    display: flex;
+    gap: 10px;
+}
+
+.book {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: coral;
+}
+
+.delete {
+    border: none;
+    border-radius: 3px;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(250, 79, 79);
+    color:rgb(249, 56, 56)
+}
+
+.update {
+    border: none;
+    border-radius: 3px;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(107, 79, 250);
+    color:rgb(85, 52, 250) ;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.formButton {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
