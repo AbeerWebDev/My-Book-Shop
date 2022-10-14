@@ -61,7 +61,7 @@ const Add = () => {
       />
             <button className='formButton' onClick={handleClick}>Add</button>
             {error && "Something went wrong!"}
-            <Link to="/">See all books</Link>
+            <Link style={{textDecoration: "none", color: "aliceblue"}} to="/">See all books</Link>
         </div>
     )
 }
