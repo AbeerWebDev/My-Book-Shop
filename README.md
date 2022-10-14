@@ -40,11 +40,11 @@ To practice web design and routing.
 
 ## Screenshot
 Home Page 
-![project screenshot](.png)
+![project screenshot](home.png)
 Add Page 
-![project screenshot](.png)
+![project screenshot](add.png)
 Update Page
-![project screenshot](.png)
+![project screenshot](update.png)
 
 ## Installation and Setup Instructions
 
