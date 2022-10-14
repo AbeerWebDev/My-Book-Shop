@@ -48,7 +48,7 @@ Update Page
 
 ## Installation and Setup Instructions
 
-Clone down this repository. You will need node and `npm` installed globally on your machine.
+Clone down this repository. You will need node and `npm` installed globally on your machine. In addition this application uses NodeJS, which needs to be running alongside npm. Use the same commands below for both files: backend & client simultaneously.
 
 ### Installation:
 
